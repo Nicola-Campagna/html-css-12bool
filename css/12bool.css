@@ -28,12 +28,12 @@
 }
 
 .jc-flex-start{
-    justify-content: center;
+    justify-content:flex-start;
 
 }
 
 .jc-flex-end{
-    justify-content: flex-end;
+    justify-content:flex-end
 
 }
 
@@ -57,8 +57,6 @@
 .container{
     max-width: 1170px;
     margin: 0 auto;
-
-    border: 1px solid black;
 }
 
 .row{
@@ -66,6 +64,7 @@
     flex-direction: row;
     align-items: stretch;
     flex-wrap: wrap;
+
 }
 
 [class*="col-"] {
