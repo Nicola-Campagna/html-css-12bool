@@ -57,6 +57,8 @@
 .container{
     max-width: 1170px;
     margin: 0 auto;
+
+    border: 1px solid black;
 }
 
 .row{
@@ -70,14 +72,14 @@
     flex: 0 0 auto;
 }
 
+
+
+/* COL */
 .col{
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
 }
-
-
-/* COL */
 
 .col-1 {
     flex-basis: calc( (100% / 12) * 1);
@@ -187,6 +189,7 @@
 .col-offset-11{
     margin-left: calc((100%/ 12) * 11);
 }
+
 .col-offset-12{
     margin-left: calc((100%/ 12) * 12);
 }
