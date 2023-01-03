@@ -193,9 +193,29 @@
 
 /* MEDIA QUERY  */
 
-
 /* EXTRA LARGE DEVICE -xl */
 @media screen and (max-width:1200px) {
+    .d-inline-xl{
+        display: inline;
+    }
+    
+    .d-inline-block-xl{
+        display: inline-block;
+    }
+    
+    .d-block-xl{
+        display: block;
+    }
+    
+    .d-none-xl{
+        display: none;
+    }
+    
+    .d-flex-xl{
+        display: flex;
+    }
+
+    /* col */
     .col-xl-1 {
         flex-basis: calc( (100% / 12) * 1);
         max-width: calc( (100% / 12) * 1);
@@ -314,9 +334,29 @@
 
 }
 
-
 /* LARGE DEVICE -lg */
 @media screen and (max-width:992px) {
+    .d-inline-lg{
+        display: inline;
+    }
+    
+    .d-inline-block-lg{
+        display: inline-block;
+    }
+    
+    .d-block-lg{
+        display: block;
+    }
+    
+    .d-none-lg{
+        display: none;
+    }
+    
+    .d-flex-lg{
+        display: flex;
+    }
+
+    /* col */
     .col-lg-1 {
         flex-basis: calc( (100% / 12) * 1);
         max-width: calc( (100% / 12) * 1);
@@ -435,9 +475,29 @@
 
 }
 
-
 /* MEDIUM DEVICE -md */
 @media screen and (max-width:768px) {
+    .d-inline-md{
+        display: inline;
+    }
+    
+    .d-inline-block-md{
+        display: inline-block;
+    }
+    
+    .d-block-md{
+        display: block;
+    }
+    
+    .d-none-md{
+        display: none;
+    }
+    
+    .d-flex-md{
+        display: flex;
+    }
+
+    /* col */
     .col-md-1 {
         flex-basis: calc( (100% / 12) * 1);
         max-width: calc( (100% / 12) * 1);
@@ -556,9 +616,29 @@
 
 }
 
-
 /* SMALL DEVICE -sm */
 @media screen and (max-width:600px) {
+    .d-inline-sm{
+        display: inline;
+    }
+    
+    .d-inline-block-sm{
+        display: inline-block;
+    }
+    
+    .d-block-sm{
+        display: block;
+    }
+    
+    .d-none-sm{
+        display: none;
+    }
+    
+    .d-flex-sm{
+        display: flex;
+    }
+
+    /* col */
     .col-sm-1 {
         flex-basis: calc( (100% / 12) * 1);
         max-width: calc( (100% / 12) * 1);
@@ -677,10 +757,32 @@
 
 }
 
-
-
 /* EXTRA SMALL DEVICE -xs */
 @media screen and (max-width:480px) {
+
+    /* display */
+    .d-inline-xs{
+        display: inline;
+    }
+    
+    .d-inline-block-xs{
+        display: inline-block;
+    }
+    
+    .d-block-xs{
+        display: block;
+    }
+    
+    .d-none-xs{
+        display: none;
+    }
+    
+    .d-flex-xs{
+        display: flex;
+    }
+
+    /* col */
+
     .col-xs-1 {
         flex-basis: calc( (100% / 12) * 1);
         max-width: calc( (100% / 12) * 1);
